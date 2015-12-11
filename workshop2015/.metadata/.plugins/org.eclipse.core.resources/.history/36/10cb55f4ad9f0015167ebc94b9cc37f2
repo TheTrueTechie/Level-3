@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+
+public class ArrayListPractice {
+	public static void main(String[] args) {
+		/*
+		 * ArrayList<String> a = new ArrayList<String>(); a.add(
+		 * "Vegerterian Food List"); a.add("Tofu"); a.add("Rice");
+		 * a.add("Chopsticks"); a.add("Root beer");
+		 * 
+		 * for (int i = 0; i < a.size(); i++) { System.out.println(a.get(i)); }
+		 * ArrayList<AnythingYouWant> a = new ArrayList<AnythingYouWant>();
+		 * a.add(new AnythingYouWant("Vegeterian Food List")); a.add(new
+		 * AnythingYouWant("Tofu")); a.add(new AnythingYouWant("Rice"));
+		 * a.add(new AnythingYouWant("Candy")); a.add(new AnythingYouWant(
+		 * "Root Beer")); a.add(new AnythingYouWant("Ploopy"));
+		 * 
+		 */
+		ArrayList<Star> stars = new ArrayList<Star>();
+		stars.add(new Star("Ploopy Star", 0));
+		stars.add(new Star("Galifrey Star", 1));
+		stars.add(new Star("Venus Star", 2));
+		stars.add(new Star("Uranus Star", 3));
+		stars.add(new Star("Jupiter Star", 4));
+		for (int i = 0; i < stars.size(); i++) {
+			System.out.println(stars.get(i));
+		}
+
+	}
+}

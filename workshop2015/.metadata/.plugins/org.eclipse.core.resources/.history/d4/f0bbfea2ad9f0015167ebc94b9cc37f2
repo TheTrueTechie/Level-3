@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+public class ArrayListPractice {
+	public static void main(String[] args) {
+		/*
+		 * ArrayList<String> a = new ArrayList<String>(); a.add(
+		 * "Vegerterian Food List"); a.add("Tofu"); a.add("Rice");
+		 * a.add("Chopsticks"); a.add("Root beer");
+		 * 
+		 * for (int i = 0; i < a.size(); i++) { System.out.println(a.get(i)); }
+		 */
+		ArrayList<AnythingYouWant> a = new ArrayList<AnythingYouWant>();
+		a.add(new AnythingYouWant("Vegeterian Food List"));
+		a.add(new AnythingYouWant("Tofu"));
+		a.add(new AnythingYouWant("Rice"));
+		a.add(new AnythingYouWant("Candy"));
+		a.add(new AnythingYouWant("Root Beer"));
+		a.add(new AnythingYouWant("Ploopy"));
+
+		for (int i = 0; i < a.size(); i++) {
+			System.out.println(a.get(i).getName());
+		}
+	}
+}
