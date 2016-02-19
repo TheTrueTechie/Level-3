@@ -1,5 +1,4 @@
 /ArrayListQuiz.class
-/BO3Server.class
 /Beatle.class
 /CDPlayer.class
 /Chip.class
@@ -7,14 +6,11 @@
 /Decorator.class
 /Duck.class
 /DuckQuiz.class
-/Game$Pcomp.class
-/Game.class
 /LearningArrayLists.class
 /LongChipCompetition.class
 /MurderOfCrows.class
 /Ornament.class
 /Plane.class
-/Player.class
 /Randomness.class
 /SantaList.class
 /SnakesOnAPlane.class
@@ -23,8 +19,7 @@
 /bannedNames.class
 /comedyCentral.class
 /dinnerDecider.class
-/RemovingStuffFromArrayList.class
-/RemovingStuffFromArrayLists.class
-/RemovingStuffFromArrayLists$1Dirt.class
-/RemovingStuffFromArrayLists$1Stuff.class
-/RemovingStuffFromArrayLists$1Worm.class
+/BO3Server.class
+/Game$Pcomp.class
+/Game.class
+/Player.class
